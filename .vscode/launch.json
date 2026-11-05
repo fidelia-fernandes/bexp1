@@ -1,0 +1,91 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🌐 Launch Web Dashboard (Streamlit)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/app.py",
+                "--server.port=8501",
+                "--server.headless=false"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🤖 Run E-Commerce Chatbot (Interactive)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/chatbot.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "📊 Part A: Dataset Preparation & Exploration",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/part_a_dataset_prep.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🧠 Part B: Generate FAQ Embeddings",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/create_embeddings.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🔍 Part B: FAQ Semantic Search Module",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/faq_module.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "💻 Part C: Product Recommendation Module",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/recommendation_module.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "❓ Part D: Product Question Answering (RAG)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/product_module.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "⭐ Part E: Customer Review Sentiment Module",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/review_module.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🎯 Part F: Intent Detection Module",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/intent_module.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "🧪 Run Full Verification Test Suite",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/verify_all_modules.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
